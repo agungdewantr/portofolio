@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="dist/output.css" rel="stylesheet" />
+    <title>Agung Dewantara</title>
+  </head>
+  <body>
+    <!-- header start -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-primary block py-6"
+              >AgungD</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span class="hamburger-line"></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg: shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Tentang Saya</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#portofolio"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Portofolio</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#edunexpe"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Education</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#blog"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Blog</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#footer"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- hero section start -->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="reveal w-full self-center px-4 lg:w-1/2">
+            <h1
+              class="text-base font-semibold text-primary md:text-xl lg:text-2xl"
+            >
+              Halo Semua 👋 saya,
+              <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl"
+                >Agung Dewantara</span
+              >
+            </h1>
+            <h2
+              class="font-medium text-secondary -500 text-lg mb-5 lg:text-2xl"
+            >
+              Web Programming Entusiast
+            </h2>
+            <p class="font-medium text-secondary mb-10 leading-relaxed">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+              optio repellat magni quis animi provident consectetur consequatur
+              dolorum nam obcaecati.
+            </p>
+            <a
+              href="dist/img/CV_Agung Dewantara.pdf"
+              class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+              target="_blank"
+              download
+              >Curriculum Vitae (CV)</a
+            >
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-9 lg:right-0">
+              <img
+                src="dist/img/agung.png"
+                alt="Agung"
+                class="max-w-full mx-auto"
+              />
+              <span
+                class="absolute -bottom-10 -z-10 left-1/2 -translate-x-1/2 md:scale-125"
+              >
+                <svg
+                  width="550"
+                  height="550"
+                  viewBox="0 0 200 200"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="#0ea5e9"
+                    d="M54.4,-43.6C67.8,-26.6,74.1,-4.2,70.7,18.3C67.3,40.8,54.3,63.3,37,68.2C19.8,73.2,-1.7,60.7,-23.4,49.8C-45.2,38.9,-67.1,29.6,-72.4,14.3C-77.7,-1.1,-66.4,-22.5,-51.6,-39.8C-36.8,-57.1,-18.4,-70.3,1.1,-71.2C20.5,-72,41.1,-60.6,54.4,-43.6Z"
+                    transform="translate(100 100)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- about section start -->
+    <section id="about" class="pt-36 pb-32">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="reveal w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold uppercase text-primary text-lg mb-3">
+              Tentang Saya
+            </h4>
+            <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">
+              Yuk, belajar bingung bareng saya
+            </h2>
+            <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+              voluptatum, consectetur expedita cum esse tempora?
+            </p>
+          </div>
+          <div class="reveal w-full px-4 lg:w-1/2">
+            <h3
+              class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10"
+            >
+              Mari berteman
+            </h3>
+            <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates assumenda minima est repudiandae quas quis deleniti
+              laboriosam alias?
+            </p>
+            <div class="flex items-center">
+              <!-- linkedin -->
+              <a
+                href="https://linkedin.com/in/agungdewantara"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              >
+                <svg
+                  class="fill-current"
+                  width="20"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>LinkedIn</title>
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                  />
+                </svg>
+              </a>
+
+              <!-- instagram -->
+              <a
+                href="https://instagram.com/agungdewantr"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              >
+                <svg
+                  class="fill-current"
+                  width="20"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Instagram</title>
+                  <path
+                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                  />
+                </svg>
+              </a>
+
+              <!-- github -->
+              <a
+                href="https://github.com/agungdewantr"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              >
+                <svg
+                  class="fill-current"
+                  width="20"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>GitHub</title>
+                  <path
+                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- portofolio section start -->
+    <section id="portofolio" class="pt-36 pb-16 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="reveal max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Portofolio</h4>
+            <h2 class="font-bold text-dark text-3xl mb-4">Project Terbaru</h2>
+            <p class="font-medium text-md text-secondary">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quis
+              reiciendis, eaque rerum veritatis corporis! Necessitatibus odit
+              eos sapiente consequuntur.
+            </p>
+          </div>
+        </div>
+        <div
+          class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto"
+        >
+          <div class="reveal mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/img/portofolio/audit-3.png"
+                alt="portfolio"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5">
+              Internal Audit Online System
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Merupakan Sistem berbasis web yang digunakan untuk proses audit
+              Internal, Fiturnya meliputi Proses dari Perencanaan Program Kerja
+              Pengawasan Tahunan, pelaksanaan audit, hingga proses monitoring
+              dan tindak lanjut. Sistem ini dibangun menggunakan PHP Laravel.
+            </p>
+          </div>
+          <div class="reveal mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/img/portofolio/siclinic-2.png"
+                alt="portfolio"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5">
+              Siclinic Azzainiyah
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Siclinic Azzainiyah adalah sistem informasi klinik berbasis web
+              yang memiliki fitur untuk manajemen inventori barang (obat),
+              kelola transaksi (sistem kasir), dan pembagian shift pegawai.
+              Sistem ini dibangun menggunakan PHP Laravel.
+            </p>
+          </div>
+          <div class="reveal mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/img/portofolio/spk.png"
+                alt="portfolio"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5">
+              SPK Prioritas Pembangunan Daerah
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              SPK Prioritas Pembangunan Daerah adalah Sistem Pendukung Keputusan
+              berbasis web yang digunakan untuk menentuka prioritas pembangunan
+              daerah di BP4D Bondowoso, sistem ini mengimplementasikan metode
+              SPK yaitu fuzzy-AHP. Sistem ini dibangun dengan PHP Laravel.
+            </p>
+          </div>
+          <div class="reveal mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/img/portofolio/myPOS.png"
+                alt="portfolio"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5">MyPOS</h3>
+            <p class="font-medium text-base text-secondary">
+              MyPOS merupakan sistem kasir berbasis web yang memiliki fitur
+              untuk mengelola transaksi penjualan, pembelian barang, kelola
+              diskon. Sistem ini dibangun dengan PHP Laravel.
+            </p>
+          </div>
+          <div class="reveal mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/img/portofolio/p.png"
+                alt="portfolio"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5">Aplikasi Kasir</h3>
+            <p class="font-medium text-base text-secondary">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
+              nobis provident ab similique fugit at voluptatibus beatae impedit,
+              obcaecati quia.
+            </p>
+          </div>
+          <div class="reveal mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/img/portofolio/p.png"
+                alt="portfolio"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5">Aplikasi Kasir</h3>
+            <p class="font-medium text-base text-secondary">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
+              nobis provident ab similique fugit at voluptatibus beatae impedit,
+              obcaecati quia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section end -->
+
+    <!-- edunexper section start -->
+    <section id="edunexpe" class="pt-36 pb-32 bg-slate-700">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="reveal max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">
+              Education & Experience
+            </h4>
+            <h2
+              class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-3xl"
+            >
+              Meliputi Riwayat pendidikan, pengalaman kerja / magang.
+            </h2>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="reveal w-full px-4 mb-10 lg:w-1/2">
+              <div class="timeline-title">
+                <h1 class="text-primary font-bold">Education</h1>
+              </div>
+              <div class="timeline">
+                <div class="timeline-container left-container">
+                  <img src="dist/img/timeline/unej.png" alt="logotimeline" />
+                  <div class="timeline-text-box">
+                    <h2>
+                      <span class="font-bold">Universitas Jember,</span> Jember
+                    </h2>
+                    <small>Sistem Informasi</small>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <span class="left-container-arrow"></span>
+                  </div>
+                </div>
+                <div class="timeline-container right-container">
+                  <img src="dist/img/timeline/smk.png" alt="logotimeline" />
+                  <div class="timeline-text-box">
+                    <h2>
+                      <span class="font-bold">SMKN 1 Wringin,</span> Bondowoso
+                    </h2>
+                    <small>Teknik Komputer Jaringan</small>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <span class="right-container-arrow"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="line hidden absolute lg:block"></div>
+            <div class="reveal w-full px-4 mb-10 lg:w-1/2">
+              <div class="timeline-title">
+                <h1 class="text-primary font-bold">Experience</h1>
+              </div>
+              <div class="timeline">
+                <div class="timeline-container left-container">
+                  <img src="dist/img/timeline/unej.png" alt="logotimeline" />
+                  <div class="timeline-text-box">
+                    <h2>
+                      <span class="font-bold">Universitas Jember,</span> Jember
+                    </h2>
+                    <small>Sistem Informasi</small>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <span class="left-container-arrow"></span>
+                  </div>
+                </div>
+                <div class="timeline-container right-container">
+                  <img src="dist/img/timeline/smk.png" alt="logotimeline" />
+                  <div class="timeline-text-box">
+                    <h2>
+                      <span class="font-bold">SMKN 1 Wringin,</span> Bondowoso
+                    </h2>
+                    <small>Teknik Komputer Jaringan</small>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <span class="right-container-arrow"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog section start -->
+    <section id="blog" class="pt-36 pb-32 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="reveal max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Blog</h4>
+            <h2 class="font-bold text-dark text-3xl mb-4">Tulisan terkini</h2>
+            <p class="font-medium text-md text-secondary">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quis
+              reiciendis, eaque rerum veritatis corporis! Necessitatibus odit
+              eos sapiente consequuntur.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap">
+          <div class="reveal w-full px-3 lg:w-1/3">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+              <img
+                src="https://www.indonesiana.id/images/all/2021/08/31/f202108310831165.jpg"
+                alt="Blog"
+                class="w-full"
+              />
+              <div class="py-8 px-6">
+                <h3>
+                  <a
+                    href="https://www.indonesiana.id/read/148232/peningkatan-literasi-melalui-revitalisasi-perpustakaan-desa-besutan-kkn-unej"
+                    class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate"
+                    target="_blank"
+                  >
+                    Peningkatan Literasi Melalui Revitalisasi Perpustakaan Desa
+                    Besutan KKN Unej
+                  </a>
+                </h3>
+                <p class="font-medium text-base text-secondary mb-4">
+                  Artikel ini memuat tentang sosialisasi produk KKN BTV 3 UNEJ
+                  oleh Agung Dewantara
+                </p>
+                <a
+                  href="https://www.indonesiana.id/read/148232/peningkatan-literasi-melalui-revitalisasi-perpustakaan-desa-besutan-kkn-unej"
+                  class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80"
+                  target="_blank"
+                  >Baca Selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="reveal w-full px-4 lg:w-1/3">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+              <img
+                src="https://assets.kompasiana.com/items/album/2021/08/25/screenshot-2021-08-24-22-03-36-78-612602bd31a287574d7c8022.jpg?t=o&v=770"
+                alt="Blog"
+                class="w-full"
+              />
+              <div class="py-8 px-6">
+                <h3>
+                  <a
+                    href="https://www.kompasiana.com/agungdewantara/612603620101902856045d62/aksi-mahasiswa-kkn-unej-resureksi-perpustakaan-desa-optimalkan-keunggulan-literasi-anak-anak-kampung-halaman"
+                    class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate"
+                    target="_blank"
+                  >
+                    Aksi Mahasiswa KKN UNEJ Resureksi Perpustakaan Desa
+                    Optimalkan Keunggulan Literasi Anak-Anak Kampung Halaman
+                  </a>
+                </h3>
+                <p class="font-medium text-base text-secondary mb-4">
+                  Artikel ini memuat tentang sosialisasi produk KKN BTV 3 UNEJ
+                  oleh Agung Dewantara
+                </p>
+                <a
+                  href="https://www.kompasiana.com/agungdewantara/612603620101902856045d62/aksi-mahasiswa-kkn-unej-resureksi-perpustakaan-desa-optimalkan-keunggulan-literasi-anak-anak-kampung-halaman"
+                  class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80"
+                  target="_blank"
+                  >Baca Selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="reveal w-full px-4 lg:w-1/3">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+              <img
+                src="https://jatim.beritabaru.co/wp-content/uploads/sites/6/2021/08/IMG-20210826-WA0037.jpg"
+                alt="Blog"
+                class="w-full"
+              />
+              <div class="py-8 px-6">
+                <h3>
+                  <a
+                    href="https://jatim.beritabaru.co/mahasiswa-kkn-btv-3-unej-hidupkan-kembali-perpustakaan-desa/"
+                    class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate"
+                    target="_blank"
+                  >
+                    Mahasiswa KKN BTV 3 UNEJ Hidupkan Kembali Perpustakaan Desa
+                  </a>
+                </h3>
+                <p class="font-medium text-base text-secondary mb-4">
+                  Artikel ini memuat tentang sosialisasi produk KKN BTV 3 UNEJ
+                  oleh Agung Dewantara
+                </p>
+                <a
+                  href="https://jatim.beritabaru.co/mahasiswa-kkn-btv-3-unej-hidupkan-kembali-perpustakaan-desa/"
+                  class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80"
+                  target="_blank"
+                  >Baca Selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog section end -->
+
+    <!-- footer start -->
+    <footer id="footer" class="bg-dark pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 to-slate-300 font-medium md:w-1/3">
+            <h2 class="font-bold text-4xl text-white mb-5">AgungDewantara</h2>
+            <h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
+            <p>agungdewan709@gmail.com</p>
+            <p>Bondowoso, Jawa TImur</p>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">
+              Kategori Tulisan
+            </h3>
+            <ul class="text-slate-300">
+              <li>
+                <a
+                  href=""
+                  class="inline-block text-base hover:text-primary mb-2"
+                  >Programming</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="inline-block text-base hover:text-primary mb-2"
+                  >Teknologi</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="inline-block text-base hover:text-primary mb-2"
+                  >Sosial</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a
+                  href="#home"
+                  class="inline-block text-base hover:text-primary mb-2"
+                  >Beranda</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="inline-block text-base hover:text-primary mb-2"
+                  >Tentang Saya</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#portofolio"
+                  class="inline-block text-base hover:text-primary mb-2"
+                  >Portofolio</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#edunexpe"
+                  class="inline-block text-base hover:text-primary mb-2"
+                  >Education & Experience</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="#blog"
+                  class="inline-block text-base hover:text-primary mb-2"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-full pt-10 border-t">
+          <div class="flex items-center justify-center mb-5">
+            <!-- linkedin -->
+            <a
+              href="https://linkedin.com/in/agungdewantara"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+            >
+              <svg
+                class="fill-current"
+                width="20"
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>LinkedIn</title>
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                />
+              </svg>
+            </a>
+
+            <!-- instagram -->
+            <a
+              href="https://instagram.com/agungdewantr"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+            >
+              <svg
+                class="fill-current"
+                width="20"
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Instagram</title>
+                <path
+                  d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                />
+              </svg>
+            </a>
+
+            <!-- github -->
+            <a
+              href="https://github.com/agungdewantr"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+            >
+              <svg
+                class="fill-current"
+                width="20"
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>GitHub</title>
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                />
+              </svg>
+            </a>
+          </div>
+          <p class="font-medium text-sm text-slate-500 text-center">
+            Dibuat dengan ❤️ Oleh Agung Dewantara
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- edunexper section end -->
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
